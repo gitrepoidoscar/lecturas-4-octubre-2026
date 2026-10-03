@@ -331,6 +331,16 @@
       "bytes": 438113,
       "width": 946,
       "height": 1200
+    },
+    {
+      "src": "images/geografia-lecturas.svg",
+      "kind": "original",
+      "credit": "Cartografía original con Natural Earth y Pleiades; atribuciones en el pie del mapa.",
+      "license": "Natural Earth: public domain; Pleiades contributors: CC BY 3.0; map adaptation original.",
+      "source_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "used_as": [
+        "geographic-map"
+      ]
     }
   ],
   "diagrams": [
@@ -375,6 +385,15 @@
       "chapter": "arte-musica",
       "role": "music",
       "relation": "direct"
+    }
+  ],
+  "geographic_maps": [
+    {
+      "src": "images/geografia-lecturas.svg",
+      "coastlines": "Natural Earth 1:50m land, public domain",
+      "projection": "Mercator",
+      "locations": "Pleiades contributors (CC BY 3.0); UNESCO; coordinate references linked in caption",
+      "historical_limits": "Jerusalén sitúa el contexto de Isaías y Mateo; Filipos, la comunidad destinataria de la carta. Roma y Éfeso son hipótesis para su lugar de redacción; también se propone Cesarea, no señalada aquí. No se reconstruye un viaje ni se fija una localización incierta. Las costas son actuales y generalizadas."
     }
   ]
 }
