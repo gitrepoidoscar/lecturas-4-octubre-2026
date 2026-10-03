@@ -126,9 +126,9 @@
             btn.addEventListener("click", function () {
                 var img = btn.querySelector("img");
                 opener = btn;
-                dImg.src = img.currentSrc || img.src;
-                dImg.alt = img.alt;
-                if (dCap) dCap.textContent = btn.getAttribute("data-caption") || img.alt;
+                dImg.src = btn.getAttribute("data-full-src") || img.currentSrc || img.src;
+                dImg.alt = btn.getAttribute("data-alt") || img.alt;
+                if (dCap) dCap.textContent = btn.getAttribute("data-caption") || dImg.alt;
                 dialog.showModal();
                 if (closeBtn) closeBtn.focus();
             });

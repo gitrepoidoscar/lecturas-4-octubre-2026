@@ -1,6 +1,296 @@
 {
   "images": [
     {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · reconstrucción interpretativa para esta revista; no es una obra antigua ni una prueba histórica.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-apertura-640.jpg",
+      "used_as": [
+        "responsive-variant"
+      ],
+      "bytes": 137819,
+      "width": 640,
+      "height": 426
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · reconstrucción interpretativa para esta revista; no es una obra antigua ni una prueba histórica.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-apertura.jpg",
+      "used_as": [
+        "hero",
+        "gallery"
+      ],
+      "bytes": 486884,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · composición simbólica original sobre arte y escucha; distinta de las obras de museo reproducidas en este capítulo.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-arte-640.jpg",
+      "used_as": [
+        "responsive-variant"
+      ],
+      "bytes": 99179,
+      "width": 640,
+      "height": 426
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · composición simbólica original sobre arte y escucha; distinta de las obras de museo reproducidas en este capítulo.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-arte.jpg",
+      "used_as": [
+        "chapter-illustration",
+        "gallery"
+      ],
+      "bytes": 351918,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · reconstrucción interpretativa para esta revista; no es una obra antigua ni una prueba histórica.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-filipenses-640.jpg",
+      "used_as": [
+        "responsive-variant"
+      ],
+      "bytes": 82605,
+      "width": 640,
+      "height": 426
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · reconstrucción interpretativa para esta revista; no es una obra antigua ni una prueba histórica.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-filipenses.jpg",
+      "used_as": [
+        "chapter-illustration",
+        "gallery"
+      ],
+      "bytes": 286457,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · escena interpretativa sobre justicia, hospitalidad y fruto compartido.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-fruto-640.jpg",
+      "used_as": [
+        "responsive-variant"
+      ],
+      "bytes": 118102,
+      "width": 640,
+      "height": 426
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · escena interpretativa sobre justicia, hospitalidad y fruto compartido.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-fruto.jpg",
+      "used_as": [
+        "chapter-illustration",
+        "gallery"
+      ],
+      "bytes": 405139,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · escena simbólica de estudio; los libros representados no son facsímiles de fuentes reales.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-fuentes-640.jpg",
+      "used_as": [
+        "responsive-variant"
+      ],
+      "bytes": 102064,
+      "width": 640,
+      "height": 426
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · escena simbólica de estudio; los libros representados no son facsímiles de fuentes reales.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-fuentes.jpg",
+      "used_as": [
+        "chapter-illustration",
+        "gallery"
+      ],
+      "bytes": 349026,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · reconstrucción interpretativa para esta revista; no es una obra antigua ni una prueba histórica.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-isaias-640.jpg",
+      "used_as": [
+        "responsive-variant"
+      ],
+      "bytes": 127992,
+      "width": 640,
+      "height": 426
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · reconstrucción interpretativa para esta revista; no es una obra antigua ni una prueba histórica.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-isaias.jpg",
+      "used_as": [
+        "chapter-illustration",
+        "gallery"
+      ],
+      "bytes": 444038,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · metáfora visual de continuidad y cuidado; no representa un acontecimiento histórico.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-israel-640.jpg",
+      "used_as": [
+        "responsive-variant"
+      ],
+      "bytes": 136464,
+      "width": 640,
+      "height": 426
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · metáfora visual de continuidad y cuidado; no representa un acontecimiento histórico.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-israel.jpg",
+      "used_as": [
+        "chapter-illustration",
+        "gallery"
+      ],
+      "bytes": 470158,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · reconstrucción interpretativa para esta revista; no es una obra antigua ni una prueba histórica.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-mateo-640.jpg",
+      "used_as": [
+        "responsive-variant"
+      ],
+      "bytes": 113738,
+      "width": 640,
+      "height": 426
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · reconstrucción interpretativa para esta revista; no es una obra antigua ni una prueba histórica.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-mateo.jpg",
+      "used_as": [
+        "chapter-illustration",
+        "gallery"
+      ],
+      "bytes": 405266,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · aplicación contemporánea imaginada de las lecturas: escuchar, reparar y compartir.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-practicas-640.jpg",
+      "used_as": [
+        "responsive-variant"
+      ],
+      "bytes": 129236,
+      "width": 640,
+      "height": 426
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · aplicación contemporánea imaginada de las lecturas: escuchar, reparar y compartir.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-practicas.jpg",
+      "used_as": [
+        "chapter-illustration",
+        "gallery"
+      ],
+      "bytes": 443736,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · reconstrucción interpretativa para esta revista; no es una obra antigua ni una prueba histórica.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-salmo-640.jpg",
+      "used_as": [
+        "responsive-variant"
+      ],
+      "bytes": 142340,
+      "width": 640,
+      "height": 426
+    },
+    {
+      "kind": "ai-illustration",
+      "credit": "Ilustración creada con IA · reconstrucción interpretativa para esta revista; no es una obra antigua ni una prueba histórica.",
+      "tool": "Herramienta integrada de generación de imágenes de Codex",
+      "model": "No expuesto por la herramienta",
+      "license": "Ilustración original generada con IA para esta revista; no es una reproducción de arte histórico.",
+      "src": "images/ai-vina-salmo.jpg",
+      "used_as": [
+        "chapter-illustration",
+        "gallery"
+      ],
+      "bytes": 510451,
+      "width": 1280,
+      "height": 853
+    },
+    {
       "kind": "public-domain",
       "credit": "Augustin Hirschvogel, La parábola de los viñadores malvados, 1549, aguafuerte. National Gallery of Art, Washington, Rosenwald Collection, 1950.17.148. Imagen CC0.",
       "source_url": "https://www.nga.gov/artworks/39379-parable-wicked-husbandmen",
