@@ -2,9 +2,9 @@
 .cinematic-chapter { position:relative; margin:0; background:var(--paper); }
 .chapter-stage { position:relative; overflow:hidden; background:#171410; }
 .cinematic-chapter .art-open { height:clamp(440px,72vh,760px); border-radius:0; }
-.cinematic-chapter .art-open img { position:absolute; inset:-12% 0 auto; width:100%; height:124%; object-fit:cover; object-position:center; transform:translate3d(0,var(--image-shift,0px),0); }
+.cinematic-chapter .art-open img { position:absolute; inset:-48% 0 auto; width:100%; height:196%; object-fit:cover; object-position:center; transform:translate3d(0,var(--image-shift,0px),0); }
 .site-hero { overflow:hidden; }
-.site-hero > img { inset:-12% 0 auto; height:124%; object-fit:cover; object-position:center; transform:translate3d(0,var(--image-shift,0px),0); }
+.site-hero > img { inset:-48% 0 auto; height:196%; object-fit:cover; object-position:center; transform:translate3d(0,var(--image-shift,0px),0); }
 .chapter-stage::after { content:""; position:absolute; inset:0; pointer-events:none; background:linear-gradient(180deg,rgba(12,10,8,.08) 25%,rgba(12,10,8,.6) 65%,rgba(12,10,8,.92)); }
 .chapter-stage .chapter-hero-text { position:absolute; inset:auto 0 0; z-index:2; max-width:1000px; padding:clamp(1.5rem,4vw,4rem); margin:auto; color:white; pointer-events:none; }
 .chapter-stage .chapter-title { font-size:clamp(2rem,4.8vw,4rem); line-height:1.06; text-wrap:balance; text-shadow:0 2px 16px #0008; }

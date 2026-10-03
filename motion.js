@@ -10,7 +10,7 @@
         if (preference.matches) return;
         visible.forEach(function (stage) {
             var rect = stage.getBoundingClientRect();
-            var travel = Math.min(90, rect.height * .105);
+            var travel = Math.min(90, rect.height * .105) * 4;
             var progress = (window.innerHeight / 2 - rect.top - rect.height / 2) / ((window.innerHeight + rect.height) / 2);
             var shift = Math.max(-1, Math.min(1, progress)) * travel;
             stage.style.setProperty('--image-shift', shift.toFixed(1) + 'px');
