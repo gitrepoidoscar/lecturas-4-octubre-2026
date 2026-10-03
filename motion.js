@@ -2,7 +2,7 @@
 (function () {
     'use strict';
     var preference = window.matchMedia('(prefers-reduced-motion: reduce)');
-    var stages = Array.from(document.querySelectorAll('.chapter-stage'));
+    var stages = Array.from(document.querySelectorAll('.chapter-stage, .site-hero'));
     var visible = new Set();
     var pending = false;
     function frame() {
@@ -10,7 +10,9 @@
         if (preference.matches) return;
         visible.forEach(function (stage) {
             var rect = stage.getBoundingClientRect();
-            var shift = Math.max(-16, Math.min(16, (window.innerHeight / 2 - rect.top - rect.height / 2) * .045));
+            var travel = Math.min(90, rect.height * .105);
+            var progress = (window.innerHeight / 2 - rect.top - rect.height / 2) / ((window.innerHeight + rect.height) / 2);
+            var shift = Math.max(-1, Math.min(1, progress)) * travel;
             stage.style.setProperty('--image-shift', shift.toFixed(1) + 'px');
         });
     }
@@ -19,14 +21,14 @@
         var observer = new IntersectionObserver(function (entries) {
             entries.forEach(function (entry) {
                 if (entry.isIntersecting) visible.add(entry.target); else visible.delete(entry.target);
-                if (entry.isIntersecting && !entry.target.dataset.revealed && !preference.matches) {
+                if (entry.isIntersecting && entry.target.classList.contains('chapter-stage') && !entry.target.dataset.revealed && !preference.matches) {
                     entry.target.dataset.revealed = 'true';
                     entry.target.classList.add('is-revealing');
                     entry.target.addEventListener('animationend', function () { entry.target.classList.remove('is-revealing'); }, { once:true });
                 }
             }); schedule();
         }, { threshold:.05 });
-        stages.forEach(function (stage) { stage.classList.add('motion-reveal'); observer.observe(stage); });
+        stages.forEach(function (stage) { if (stage.classList.contains('chapter-stage')) stage.classList.add('motion-reveal'); observer.observe(stage); });
     }
     window.addEventListener('scroll', schedule, { passive:true });
     window.addEventListener('resize', schedule, { passive:true });
