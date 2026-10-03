@@ -1,0 +1,31 @@
+/* Odyssey-inspired chapter imagery, with full images available in the lightbox. */
+.cinematic-chapter { position:relative; margin:0; background:var(--paper); }
+.chapter-stage { position:relative; overflow:hidden; background:#171410; }
+.cinematic-chapter .art-open { height:clamp(440px,72vh,760px); border-radius:0; }
+.cinematic-chapter .art-open img { width:100%; height:100%; object-fit:cover; object-position:center; transform:scale(1.045) translateY(var(--image-shift,0px)); }
+.chapter-stage::after { content:""; position:absolute; inset:0; pointer-events:none; background:linear-gradient(180deg,rgba(12,10,8,.08) 25%,rgba(12,10,8,.6) 65%,rgba(12,10,8,.92)); }
+.chapter-stage .chapter-hero-text { position:absolute; inset:auto 0 0; z-index:2; max-width:1000px; padding:clamp(1.5rem,4vw,4rem); margin:auto; color:white; pointer-events:none; }
+.chapter-stage .chapter-title { font-size:clamp(2rem,4.8vw,4rem); line-height:1.06; text-wrap:balance; text-shadow:0 2px 16px #0008; }
+.chapter-stage .chapter-subtitle, .chapter-stage .source-span { color:#f6ebdd; max-width:70ch; }
+.chapter-stage .illustration-zoom { top:1rem; bottom:auto; z-index:3; }
+.cinematic-chapter > figcaption { max-width:1000px; margin:auto; padding:1rem 1.4rem 1.5rem; }
+.motion-reveal { opacity:1; }
+.motion-reveal.is-revealing { animation:editorial-reveal .8s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes editorial-reveal { from { opacity:.6; transform:translateY(28px); } to { opacity:1; transform:translateY(0); } }
+.gallery-shell { position:relative; }
+.gallery-controls { display:flex; justify-content:flex-end; gap:.65rem; margin:1rem 0; }
+.gallery-controls button { border:1px solid currentColor; background:transparent; color:inherit; border-radius:100%; width:2.8rem; height:2.8rem; cursor:pointer; font-size:1.4rem; }
+.gallery-track.illustration-grid { display:flex; overflow-x:auto; gap:1.5rem; scroll-snap-type:x mandatory; padding:.3rem .3rem 1rem; scrollbar-color:#9b784b #e9dfce; }
+.gallery-track > figure { flex:0 0 min(72vw,440px); scroll-snap-align:start; }
+.gallery-track img { transition:transform .65s cubic-bezier(.2,.7,.2,1); }
+.gallery-track .art-open:hover img, .gallery-track .art-open:focus-visible img { transform:scale(1.035); }
+.lightbox[open] { animation:dialog-arrival .22s ease-out; }
+@keyframes dialog-arrival { from { opacity:0; transform:translateY(12px) scale(.98); } to { opacity:1; transform:none; } }
+.geographic-map { margin:2rem 0; }
+.geographic-map img { display:block; width:100%; height:auto; border:1px solid #b6a58b; border-radius:8px; background:#c6dce1; }
+.geographic-map figcaption { font: .85rem/1.6 var(--font-ui); padding:.8rem 0; }
+.geographic-map .art-open { width:100%; border:0; padding:0; background:transparent; cursor:zoom-in; }
+.geographic-map .art-open:focus-visible, .gallery-controls button:focus-visible { outline:3px solid #996420; outline-offset:4px; }
+@media(max-width:600px) { .cinematic-chapter .art-open { height:520px; } .chapter-stage .chapter-hero-text { padding:1.4rem; } .chapter-stage .chapter-title { font-size:2rem; } .gallery-track > figure { flex-basis:86vw; } }
+@media(prefers-reduced-motion:reduce) { .cinematic-chapter .art-open img { transform:none!important; } .motion-reveal.is-revealing, .lightbox[open] { animation:none!important; } .gallery-track img { transition:none; } html { scroll-behavior:auto; } }
+@media print { .chapter-stage .art-open { height:auto; } .chapter-stage .art-open img { height:auto; transform:none; } .chapter-stage::after { display:none; } .chapter-stage .chapter-hero-text { position:static; color:#000; } .chapter-stage .chapter-subtitle, .chapter-stage .source-span { color:#000; } .gallery-controls { display:none; } .gallery-track.illustration-grid { display:grid; overflow:visible; } }
