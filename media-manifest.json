@@ -1,0 +1,90 @@
+{
+  "images": [
+    {
+      "kind": "public-domain",
+      "credit": "Augustin Hirschvogel, La parábola de los viñadores malvados, 1549, aguafuerte. National Gallery of Art, Washington, Rosenwald Collection, 1950.17.148. Imagen CC0.",
+      "source_url": "https://www.nga.gov/artworks/39379-parable-wicked-husbandmen",
+      "license": "CC0 1.0 (dominio público), según el archivo donado por la National Gallery of Art a Wikimedia Commons y la política de acceso abierto de la NGA",
+      "notes": "Descargado el 2026-10-03 de Wikimedia Commons (miniatura de 1920 px del archivo «Augustin Hirschvogel, The Parable of the Wicked Husbandmen, 1549, NGA 39379.jpg»); reducido a 1200 px de alto con sips; sin recorte. La página de la NGA bloqueó la descarga automática (HTTP 403); metadatos tomados del archivo de Commons, cuya fuente es purl.org/nga/collection/artobject/39379.",
+      "src": "images/hirschvogel-wicked-husbandmen-1549.jpg",
+      "used_as": [
+        "art"
+      ],
+      "bytes": 475402,
+      "width": 1173,
+      "height": 1200
+    },
+    {
+      "kind": "public-domain",
+      "credit": "Lippo Memmi (Filippo di Memmo), San Pablo, hacia 1330, temple sobre tabla, fondo de oro. The Metropolitan Museum of Art, Gift of Coudert Brothers, 1888, 88.3.99. Dominio público (Open Access).",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437065",
+      "license": "Dominio público: isPublicDomain = true en la API de colecciones del Met (Open Access, CC0)",
+      "notes": "Descargado el 2026-10-03 desde images.metmuseum.org (DP295031, original 1966×3875); reducido a 1300 px de alto con sips; sin recorte.",
+      "src": "images/memmi-saint-paul-c1330.jpg",
+      "used_as": [
+        "art"
+      ],
+      "bytes": 229480,
+      "width": 659,
+      "height": 1300
+    },
+    {
+      "kind": "public-domain",
+      "credit": "Según Sir John Everett Millais; grabado por los hermanos Dalziel, Los viñadores malvados (The Parables of Our Lord and Saviour Jesus Christ), 1864, grabado en madera, prueba. The Metropolitan Museum of Art, Rogers Fund, 1921, 21.68.4(8). Dominio público (Open Access).",
+      "source_url": "https://www.metmuseum.org/art/collection/search/382273",
+      "license": "Dominio público: isPublicDomain = true en la API de colecciones del Met (Open Access, CC0)",
+      "notes": "Descargado el 2026-10-03 desde images.metmuseum.org (DP835802, original 2416×3065); reducido a 1200 px de alto con sips; sin recorte. Roles según el registro: «After Sir John Everett Millais» (artista) y «Dalziel Brothers» (grabador).",
+      "src": "images/millais-dalziel-wicked-husbandmen-1864.jpg",
+      "used_as": [
+        "art"
+      ],
+      "bytes": 438113,
+      "width": 946,
+      "height": 1200
+    }
+  ],
+  "diagrams": [
+    {
+      "src_in_source": "diagrams/vina-isaias.svg",
+      "kind": "original",
+      "credit": "Diagrama educativo original de esta revista; no es arte histórico",
+      "embedding": "SVG en línea en index.html"
+    },
+    {
+      "src_in_source": "diagrams/vina-salmo.svg",
+      "kind": "original",
+      "credit": "Diagrama educativo original de esta revista; no es arte histórico",
+      "embedding": "SVG en línea en index.html"
+    },
+    {
+      "src_in_source": "diagrams/vina-mateo.svg",
+      "kind": "original",
+      "credit": "Diagrama educativo original de esta revista; no es arte histórico",
+      "embedding": "SVG en línea en index.html"
+    },
+    {
+      "src_in_source": "diagrams/fronteras.svg",
+      "kind": "original",
+      "credit": "Diagrama educativo original de esta revista; no es arte histórico",
+      "embedding": "SVG en línea en index.html"
+    }
+  ],
+  "embeds": [
+    {
+      "provider": "youtube",
+      "id": "7vM9xXm9CMw",
+      "title": "Rejoice in the Lord Alway (The Bell Anthem) - Henry Purcell",
+      "chapter": "arte-musica",
+      "role": "music",
+      "relation": "direct"
+    },
+    {
+      "provider": "youtube",
+      "id": "eZaL8XakQLo",
+      "title": "Bach - Cantata Du Hirte Israel, höre BWV 104 - Van Veldhoven | Netherlands Bach Society",
+      "chapter": "arte-musica",
+      "role": "music",
+      "relation": "direct"
+    }
+  ]
+}
